@@ -7,9 +7,10 @@
 
 
 .footer {
+    width: 100%;
     color: darkgray;
     text-align: center;
     background-color: rgba(51, 56, 56, 0.171);
-    position: sticky;
-    bottom: 0px;
+    position: fixed;
+    bottom: 10px;
 }

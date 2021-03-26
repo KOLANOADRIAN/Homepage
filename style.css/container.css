@@ -1,9 +1,18 @@
 
-
-
+.containerOff {
+    display: none;
+} 
 .container {
-width: 100%;
-height: 100vh;
+    display: block;
+    margin-top: 0;
+    background-color: rgba(41, 39, 41, 0.637);
+    width: 100vw;
+    height: 100%;
+   
+}
+
+.container__caption {
+
 }
 
 

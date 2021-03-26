@@ -1,0 +1,23 @@
+.container-header{
+    display: flex;
+    height: 40%;
+}
+@media (max-width:767px) {
+    .container-header{
+        display: block; 
+ }}
+.header__paragraf {
+    width: 50%;
+    margin-left: 50px;
+    background-color: tomato;
+}
+
+.header__aside {
+    display: block;
+    width: 20%;
+    margin-right: 50px;
+    background-image: url(../12.2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
