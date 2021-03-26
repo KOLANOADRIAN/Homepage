@@ -1,0 +1,15 @@
+*,
+* 
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+
+.footer {
+    color: darkgray;
+    text-align: center;
+    background-color: rgba(51, 56, 56, 0.171);
+    position: sticky;
+    bottom: 10px;
+}
