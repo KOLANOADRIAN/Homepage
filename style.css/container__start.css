@@ -1,0 +1,43 @@
+.container__start {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../firstBaceground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container_startButton {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    color: white;
+    background-color: rgba(169, 169, 169, 0.178);
+    border-radius: 5px;
+    padding: 10px 50px;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transition-property: transform;
+    transition-duration: 1s ;
+
+}
+.container__startOff {
+    background: none;
+}
+.container_startButtonOff {
+    display: none;
+}
+.container_startButton:hover {
+    transform: rotateY(360deg);
+    
+}
+.container_startButton:active {
+background-color: rgba(64, 224, 208, 0.342);
+}
+@keyframes rotate {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
