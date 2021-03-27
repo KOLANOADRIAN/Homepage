@@ -1,24 +1,25 @@
 .container-header{ 
     display: flex;
     height: 40%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media (max-width:767px) {
     .container-header{
       
  }}
 .header__paragraf {
-    width: 50%;
-    margin: 50px;
+   width: 60%;
+   padding: 20px;
+    
     
 }
 
 .header__aside {
-    margin: 50px;
-    display: block;
-    width: 20%;
+    width: 40%;
     border-radius: 5px;
     box-shadow: 0 0 10px #ccc;
-    margin-right: 50px;
     background-image: url(../12.2.jpg);
     background-position: center;
     background-size: cover;
