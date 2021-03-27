@@ -2,9 +2,15 @@
     height: 40%;
     display: flex;
 }
-
+@media (max-width:767px) {
+    .container-section{
+        
+ }}
 .section__article {
+    margin: 50px;
     width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
     background-image: url(../15.1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,5 +18,6 @@
 
 }
 .section__aside {
+    margin: 50px;
     width: 60%;
 }

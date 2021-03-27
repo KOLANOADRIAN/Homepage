@@ -1,0 +1,30 @@
+
+.conteiner__dark {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+}
+
+
+.conteiner__white {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(250, 250, 250, 0.719);
+    color: black;
+}
+.button{
+   margin-left: 90%;
+   margin-top: 10px;
+    border-radius: 30px;
+}
+.button__White {
+    background: white;
+    color:black ;
+}
+
+.button__Dark {
+    background: black;
+    color: white; 
+}
+

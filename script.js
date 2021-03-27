@@ -8,7 +8,15 @@ window.addEventListener("load", function () {
     console.log("The page has loaded")
 });
 
-
+const mode = () => {
+    const conteiner__dark = document.querySelector(".conteiner__dark")
+    conteiner__dark.classList.toggle("conteiner__white");
+    button__White.classList.toggle("button__Dark");
+}
+const button__White = document.querySelector(".button__White")
+button__White.addEventListener("click", mode);
+   
+    
 
 
 const container__start = document.querySelector(".container__start");
