@@ -4,8 +4,7 @@
     background-image: url(../firstBaceground.jpg);
     background-position: center;
     background-size: cover;
-  
- 
+
 }
 
 .container_startButton {
@@ -24,6 +23,15 @@
     transition-duration: 1s ;
 
 }
+
+@media (max-width:767px) {
+    .container_startButton {
+        margin-left: 25%;
+        margin-top: 80%;
+       
+       
+        
+ }}
 .container__startOff {
     background: none;
 }

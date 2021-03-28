@@ -16,6 +16,7 @@
         display: block;
         width: 100%;
         margin: 10px;
+        margin-bottom: 80px;
  }}
 
 
@@ -45,7 +46,9 @@
 }
 @media (max-width:767px) {
     .section__aside {
+        display: block;
+        padding: 200px 30px 20px 30px;
         width: 100%;
-        padding-top: 200px;
+      
         
  }}
