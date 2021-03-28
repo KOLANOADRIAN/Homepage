@@ -43,7 +43,7 @@
     
 }
 .container_startButton:active {
-background-color: rgba(64, 224, 208, 0.342);
+background-color: rgba(32, 41, 40, 0.342);
 }
 @keyframes rotate {
     0% {opacity: 0;}
