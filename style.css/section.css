@@ -5,12 +5,25 @@
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+    position: relative;
+    animation-name: contentLeft;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 
 }
 @media (max-width:767px) {
     .container-section{
-        
+        display: block;
+        width: 100%;
+        margin: 10px;
  }}
+
+
+@keyframes contentLeft {
+    0% {left: -1000px}
+    100% {left: 0px}
+}
+
 .section__article {
     width: 40%;
     border-radius: 5px;
@@ -21,7 +34,18 @@
     background-position: center;
 
 }
+@media (max-width:767px) {
+    .section__article  {
+       display: none;
+ }}
 .section__aside {
     width: 60%;
-    padding: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
 }
+@media (max-width:767px) {
+    .section__aside {
+        width: 100%;
+        padding-top: 200px;
+        
+ }}

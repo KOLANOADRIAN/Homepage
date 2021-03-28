@@ -1,23 +1,42 @@
 .container-header{ 
     display: flex;
-    height: 40%;
+    height: 30%;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    animation-name: contentRight;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 @media (max-width:767px) {
-    .container-header{
-      
+    .container-header {
+        display: block;
+        width: 100%;
+        margin: 10px;
  }}
-.header__paragraf {
-   width: 60%;
-   padding: 20px;
-    
-    
+
+ @keyframes contentRight {
+    0% {right: -1000px}
+    100% {right: 0px}
 }
 
+.header__paragraf {
+   width: 70%;
+   padding-top: 50px;
+   padding-right: 20px;
+ 
+}
+@media (max-width:767px) {
+    .header__paragraf {
+        width: 100%;
+        margin: 50px;
+        padding-right: 100px;
+ }}
+
+
 .header__aside {
-    width: 40%;
+    width: 30%;
     border-radius: 5px;
     box-shadow: 0 0 10px #ccc;
     background-image: url(../12.2.jpg);
@@ -25,3 +44,13 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+@media (max-width:767px) {
+    .header__aside {
+        width: 60%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+ }}

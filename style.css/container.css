@@ -17,6 +17,7 @@
 .container__caption {
     margin-left: 10%;
     text-shadow: 0 0 10px #ccc;
+    text-align: justify;
 
     
 }
