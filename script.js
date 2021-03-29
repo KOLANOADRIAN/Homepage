@@ -9,11 +9,13 @@ window.addEventListener("load", function () {
 });
 
 const mode = () => {
-    const conteiner__dark = document.querySelector(".conteiner__dark")
-    conteiner__dark.classList.toggle("conteiner__white");
-    button__White.classList.toggle("button__Dark");
+    const conteiner__dark = document.querySelector(".conteiner--dark");
+    const jscolorName = document.querySelector(".js-colorName");
+    conteiner__dark.classList.toggle("conteiner--white");
+    button__White.classList.toggle("button--dark");
+    jscolorName.innerText = conteiner__dark.classList.contains("conteiner--white") ? "Black" : "White";
 }
-const button__White = document.querySelector(".button__White")
+const button__White = document.querySelector(".button--white")
 button__White.addEventListener("click", mode);
    
     
@@ -21,7 +23,7 @@ button__White.addEventListener("click", mode);
 
 const container__start = document.querySelector(".container__start");
 const container_startButton  = document.querySelector(".container_startButton");
-const containerOff = document.querySelector(".containerOff")
+const containerOff = document.querySelector(".container--off")
 
 container_startButton.addEventListener("click", () => {
     container__start.classList.toggle("container__startOff");

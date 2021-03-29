@@ -1,5 +1,5 @@
 
-.conteiner__dark {
+.conteiner--dark {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.719);
@@ -7,27 +7,27 @@
 }
 
 
-.conteiner__white {
+.conteiner--white {
     width: 100vw;
     height: 100vh;
     background-color: white;
     color: black;
 }
-.button{
+.button {
    margin-left: 90%;
    margin-top: 10px;
    border-radius: 30px;
 }
 @media (max-width:767px) {
-    .button{
+    .button {
         margin-left: 70%;
     }}
-.button__White {
+.button--white {
     background: white;
     color:black ;
 }
 
-.button__Dark {
+.button--dark {
     background: rgba(0, 0, 0, 0.719);
     color: white; 
 }
