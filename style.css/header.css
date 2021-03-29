@@ -13,7 +13,7 @@
     .container-header {
         display: block;
         width: 100%;
-        margin: 10px;
+        margin: 10px 10px 10px 10px;
         
  }}
 
@@ -26,6 +26,7 @@
    width: 70%;
    padding-top: 10px;
    padding-right: 20px;
+   
  
 }
 @media (max-width:767px) {
@@ -47,6 +48,7 @@
 }
 @media (max-width:767px) {
     .header__aside {
+        display: block;
         width: 60%;
         height: 200px;
         margin-left: auto;

@@ -1,15 +1,11 @@
 
 .conteiner--dark {
-    width: 100vw;
-    height: 100vh;
     background-color: rgba(0, 0, 0, 0.719);
     color: white;
 }
 
 
 .conteiner--white {
-    width: 100vw;
-    height: 100vh;
     background-color: white;
     color: black;
 }
