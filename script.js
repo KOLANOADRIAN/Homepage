@@ -17,19 +17,19 @@ const mode = () => {
 }
 const button__White = document.querySelector(".button--white")
 button__White.addEventListener("click", mode);
-   
-    
 
 
-const container__start = document.querySelector(".container__start");
-const container_startButton  = document.querySelector(".container_startButton");
-const containerOff = document.querySelector(".container--off")
-
-container_startButton.addEventListener("click", () => {
+fu
+const start = () => {
+    const containerOff = document.querySelector(".container--off")
+    const container__start = document.querySelector(".container__start");
     container__start.classList.toggle("container__startOff");
     container_startButton.classList.toggle("container_startButtonOff");
     containerOff.classList.toggle("container");
-});
+}
+
+const container_startButton = document.querySelector(".container_startButton");
+container_startButton.addEventListener("click", start);
 
 
 
@@ -42,4 +42,4 @@ container_startButton.addEventListener("click", () => {
 
 
 
- 
+
