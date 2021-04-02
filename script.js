@@ -19,7 +19,7 @@ const button__White = document.querySelector(".button--white")
 button__White.addEventListener("click", mode);
 
 
-fu
+
 const start = () => {
     const containerOff = document.querySelector(".container--off")
     const container__start = document.querySelector(".container__start");
